@@ -95,7 +95,6 @@ main > img {
 }
 
 /*FEATURES*/
-
 .section-feature {
   margin-top: 100px;
   background-color: rgb(255,250,250);
@@ -107,7 +106,11 @@ main > img {
   justify-content: center;
   padding: 40px;
   font-size: 50px;
+}
+
+.section-feature > .feature-h1 > h1::first-letter {
   text-transform: uppercase;
+
 }
 
 .section-feature > .feature-box-img {
@@ -115,5 +118,30 @@ main > img {
   justify-content: center;
   gap: 30px;
   padding: 20px;
+  margin-bottom: 40px;
+}
+
+/*TECHNOLOGY*/
+.section-technology {
+  background-color: white;
+  margin-top: -40px;
+}
+
+.section-technology > .section-technology-h1 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.section-technology > .section-technology-h1 > h1::first-letter{
+  text-transform: uppercase;
+  
+}
+
+.section-technology > .section-technology-img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
   margin-bottom: 40px;
 }
